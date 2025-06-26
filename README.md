@@ -5,7 +5,7 @@
 ------------------
 
 
-### core models 
+### core models
 
 Province
 - Name 
@@ -13,7 +13,9 @@ Province
 City 
 - @Province 
 - Name
-- Job
+
+Job
+- Name
   
 platform/Status
 
