@@ -17,89 +17,90 @@ City
   
 platform/Status
 
-### user
-mobile
-name 
-uid
-province@core
-city@core
-job
-created_at 
-updated_at 
+User
+
+- mobile 
+- name 
+- uid
+- province@core
+- city@core
+- job
+- created_at 
+- updated_at 
 
 
-### shopping-cart
-@user
-@products 
-amount
-created_at
-updated_at 
+Shopping-cart
+- @user
+- @products 
+- amount
+- created_at
+- updated_at 
 
-### webpage 
-reference-card@card
-theme 
-links
-addresses
-debit-card-number for payments
-tiktime-links
-
-
-### cards
-@user  
-type  
-color  
-text
-designs 
-links
-image gallery
-active features 
-is_active 
-expiry_date 
-expire_date 
+Webpage 
+- reference-card@card
+- theme 
+- links
+- addresses
+- debit-card-number for payments
+- tiktime-links
 
 
-
-
-
-###  orders 
-@user
-@product 
-payment_id
-price
-discount 
-
-### log
-@user 
-@orders
-created_at 
-
-
-### discount-codes
-@product or cart
-percent 
-usage 
-log
-created_at
-updated_at
-
-
-### social link
-@card 
-label 
-core@platform -- status
-url 
-location 
+Cards
+- user  
+- type  
+- color  
+- text
+- designs 
+- links
+- image gallery
+- active features 
+- is_active 
+- expiry_date 
+- expire_date 
 
 
 
-### site config 
-@card 
-@user 
-page name 
-color 
-theme mode 
-images 
-banner
-@social link
+
+
+Orders 
+- @user
+- @product 
+- payment_id
+- price
+- discount 
+
+Log
+- @user 
+- @orders
+- created_at 
+
+
+Discount-codes
+- @product or cart
+- percent 
+- usage 
+- log
+- created_at
+- updated_at
+
+
+Social link
+- @card 
+- label 
+- core@platform -- status
+- url 
+- location 
+
+
+
+Site config 
+- @card 
+- @user 
+- page name 
+- color 
+- theme mode 
+- images 
+- banner
+- @social link
 
 
