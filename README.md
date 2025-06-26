@@ -1,9 +1,5 @@
 
 
-### Admin
-### django default
-------------------
-
 
 ### core models
 
@@ -18,7 +14,7 @@ Job
 - Name
   
 platform/Status
-
+### accounts 
 User
 
 - mobile 
@@ -29,6 +25,21 @@ User
 - @job
 - created_at 
 - updated_at 
+
+### 
+Cards
+- user  
+- type  
+- color  
+- text
+- designs 
+- links
+- image gallery
+- active features
+- uid
+- is_active 
+- expiry_date 
+- expire_date 
 
 
 Shopping-cart
@@ -45,25 +56,6 @@ Webpage
 - addresses
 - debit-card-number for payments
 - tiktime-links
-
-
-Cards
-- user  
-- type  
-- color  
-- text
-- designs 
-- links
-- image gallery
-- active features
-- uid
-- is_active 
-- expiry_date 
-- expire_date 
-
-
-
-
 
 Orders 
 - @user
@@ -89,15 +81,12 @@ Discount-codes
 - created_at
 - updated_at
 
-
 Social link
 - @card 
 - label 
 - core@platform -- status
 - url 
 - location 
-
-
 
 Site config 
 - @card 
