@@ -5,12 +5,11 @@
 
 
 ### core models 
-Provincne 
-City
-platform
+Province Name 
+City -> @Province > Name 
+platform/Status
 
 ### user
-
 mobile
 name 
 uid
@@ -94,8 +93,6 @@ theme mode
 images 
 banner
 @social link
-
-
 
 
 
