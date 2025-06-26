@@ -7,26 +7,29 @@
 ### core models 
 Provincne 
 City
+platform
 
 ### user
-username == phone_number 
+
+mobile
 name 
 uid
-city
+province@core
+city@core
 job
 created_at 
 updated_at 
 
 
 ### shopping-cart
-user
-products 
+@user
+@products 
 amount
 created_at
 updated_at 
 
 ### webpage 
-reference-card
+reference-card@card
 theme 
 links
 addresses
@@ -35,7 +38,7 @@ tiktime-links
 
 
 ### cards
-card  
+@user  
 type  
 color  
 text
@@ -48,27 +51,24 @@ expiry_date
 expire_date 
 
 
-### shopping cart 
-user 
-products 
 
 
 
 ###  orders 
-user
-product 
+@user
+@product 
 payment_id
 price
 discount 
 
 ### log
-user 
-orders
+@user 
+@orders
 created_at 
 
 
 ### discount-codes
-product or cart
+@product or cart
 percent 
 usage 
 log
@@ -77,23 +77,23 @@ updated_at
 
 
 ### social link
-card 
+@card 
 label 
-platform -- status
+core@platform -- status
 url 
 location 
 
 
 
 ### site config 
-card 
-user 
+@card 
+@user 
 page name 
 color 
 theme mode 
 images 
 banner
-social media 
+@social link
 
 
 
