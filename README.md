@@ -53,7 +53,8 @@ Cards
 - designs 
 - links
 - image gallery
-- active features 
+- active features
+- uid
 - is_active 
 - expiry_date 
 - expire_date 
@@ -64,7 +65,8 @@ Cards
 
 Orders 
 - @user
-- @product 
+- @product
+- uid
 - payment_id
 - price
 - discount 
@@ -72,13 +74,15 @@ Orders
 Log
 - @user 
 - @orders
+- uid
 - created_at 
 
 
 Discount-codes
 - @product or cart
 - percent 
-- usage 
+- usage
+- uid
 - log
 - created_at
 - updated_at
