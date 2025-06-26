@@ -13,7 +13,7 @@ Province
 City 
 - @Province 
 - Name
-
+- Job
   
 platform/Status
 
@@ -24,7 +24,7 @@ User
 - uid
 - province@core
 - city@core
-- job
+- @job
 - created_at 
 - updated_at 
 
