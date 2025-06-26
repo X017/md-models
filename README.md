@@ -53,6 +53,7 @@ Webpage
 - reference-card@card
 - theme 
 - links
+- slug
 - addresses
 - debit-card-number for payments
 - tiktime-links
@@ -85,7 +86,7 @@ Social link
 - @card 
 - label 
 - core@platform -- status
-- url 
+- url
 - location 
 
 Site config 
