@@ -58,23 +58,23 @@ Webpage
 - debit-card-number for payments
 - tiktime-links
 
-Orders 
+Order 
 - @user
 - @product
 - uid
 - payment_id
 - price
-- discount 
+- discount
+- status
+- address
+- is_paid
+- card_number
 
-Log
-- @user 
-- @orders
-- uid
-- created_at 
+
 
 
 Discount-codes
-- @product or cart
+- @product
 - percent 
 - usage
 - uid
@@ -99,4 +99,6 @@ Site config
 - banner
 - @social link
 
+
+  
 
