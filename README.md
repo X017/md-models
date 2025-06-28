@@ -95,53 +95,53 @@ Site config
 admin 
 - User 
 - Create - READ - Update - DELETE
--- Cards 
+- Cards 
 ----Webpage 
--- Orders
+- Orders
 
 
 - Card
 - Create - READ - Update - DELETE
--- USER 
--- Design 
--- Links 
--- Active features
--- Images 
+- USER 
+- Design 
+- Links 
+- Active features
+- Images 
 
 - Order 
 - Create - READ - Update - DELETE
--- User 
--- Product 
--- Shopping Cart 
+- User 
+- Product 
+- Shopping Cart 
 
 
 - Social Links
--- User 
--- Card 
--- Platform
+- User 
+- Card 
+- Platform
 
 - Site Config 
--- User 
--- Banner 
--- Image Gallery 
--- Platform Link
--- Theme 
+- User 
+- Banner 
+- Image Gallery 
+- Platform Link
+- Theme 
 
 
 - Discount Codes 
--- CRUD 
--- Products 
--- Carts 
--- Usage 
--- Amount 
+- CRUD 
+- Products 
+- Carts 
+- Usage 
+- Amount 
 
 
 ui/ux 
 ### 
 - User 
--- Login 
--- OTP 
--- Profile 
+- Login 
+- OTP 
+- Profile 
 
 - Card Order 
 -> Choose a type of the card
