@@ -12,11 +12,12 @@ City
 
 Job
 - Name
-  
-platform/Status
+
+Platform 
+- Status
+
 ### accounts 
 User
-
 - mobile 
 - name 
 - uid
@@ -28,13 +29,14 @@ User
 
 ### 
 Cards
-- user  
-- type  
-- color  
+- @user
+- lable 
+- type  -- model 
+- color  -- model 
 - text
 - designs 
-- links
-- image gallery
+- links -- slug 
+- image gallery -- model 
 - active features
 - uid
 - is_active 
@@ -49,14 +51,6 @@ Shopping-cart
 - created_at
 - updated_at 
 
-Webpage 
-- reference-card@card
-- theme 
-- links
-- slug
-- addresses
-- debit-card-number for payments
-- tiktime-links
 
 Order 
 - @user
@@ -70,10 +64,7 @@ Order
 - is_paid
 - card_number
 
-
-
-
-Discount-codes
+Discount-codes // Not Implemented Yet
 - @product
 - percent 
 - usage
@@ -82,23 +73,82 @@ Discount-codes
 - created_at
 - updated_at
 
-Social link
+Card-Features 
 - @card 
 - label 
 - core@platform -- status
 - url
 - location 
 
+
 Site config 
 - @card 
 - @user 
 - page name 
-- color 
 - theme mode 
 - images 
 - banner
-- @social link
+- @Card-Features
 
 
-  
+#####################################
+admin 
+- User 
+- Create - READ - Update - DELETE
+-- Cards 
+----Webpage 
+-- Orders
+
+
+- Card
+- Create - READ - Update - DELETE
+-- USER 
+-- Design 
+-- Links 
+-- Active features
+-- Images 
+
+- Order 
+- Create - READ - Update - DELETE
+-- User 
+-- Product 
+-- Shopping Cart 
+
+
+- Social Links
+-- User 
+-- Card 
+-- Platform
+
+- Site Config 
+-- User 
+-- Banner 
+-- Image Gallery 
+-- Platform Link
+-- Theme 
+
+
+- Discount Codes 
+-- CRUD 
+-- Products 
+-- Carts 
+-- Usage 
+-- Amount 
+
+
+ui/ux 
+### 
+- User 
+-- Login 
+-- OTP 
+-- Profile 
+
+- Card Order 
+-> Choose a type of the card
+-> Choose the color of the card 
+-> Enter your receiver information 
+-> Redirect to Payment Website 
+-> Show Payment Status its a sucessful/failure payment 
+-> redirect to the homepage button 
+
 
